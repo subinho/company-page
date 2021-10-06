@@ -1,37 +1,3 @@
-/*
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav ul {
-    font-size: 1.5em;
-    display: inline-flex;
-    flex-basis: 100%;
-    height: 65px;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 1em;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 1em;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-.logo {
-    display: flex;
-    font-weight: bold;
-    font-size: 2em
-}
-*/
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -81,7 +47,7 @@ nav ul li a {
     height: 94vh;
     align-items: center;
     justify-content: center;
-    background: url(../images/sigmund\ background.jpg);
+    background-image: url(../images/sigmund\ background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 94vh;
     margin: 0 auto;
@@ -188,14 +154,6 @@ nav ul li a {
 .center {
     object-position: center;
 }
-/*
-.member-image {
-    height: 60vh;
-    width: 30%;
-    border: 3px solid white;
-    border-radius: 4px;
-    margin-bottom: 30vh;
-}*/
 
 .proffesion {
     color: rgba(198, 120, 31, 0.42);
