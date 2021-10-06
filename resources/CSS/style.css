@@ -47,7 +47,7 @@ nav ul li a {
     height: 94vh;
     align-items: center;
     justify-content: center;
-    background-image: url(resources/Images/sigmund background.jpg);
+    background-image: url(../../resources/Images/sigmund background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 94vh;
     margin: 0 auto;
