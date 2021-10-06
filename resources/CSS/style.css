@@ -1,0 +1,272 @@
+/*
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    font-size: 1.5em;
+    display: inline-flex;
+    flex-basis: 100%;
+    height: 65px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    font-size: 2em
+}
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #edf0f1;
+    font-family: Rubik, sans-serif;
+}
+
+body {
+    background-color: #24252A;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px; 
+    height: 60px;
+    
+}
+
+nav ul {
+    display: inline-flex;
+    padding: 2em;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 1em;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-left: 2em;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 94vh;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/sigmund\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 94vh;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+.welcome-text {
+    position: absolute;
+    width: 50vh;
+    box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 0%);
+    font-size: 2em;
+    padding-bottom: 35vh;
+    margin: 0 30px;
+}
+
+.product {
+    margin-top: 20px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+}
+
+.product-container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gold {
+    color: #FFDA87
+}
+
+.intro {
+    font-size: 1.8em;
+}
+
+.product-image {
+    height: 90vh;
+    width: 40%;
+    border: 3px solid white;
+
+}
+
+.product-description {
+    height: 90vh;
+    width: 40%;
+    border: 3px solid white;
+    margin-left: 10px;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 
+}
+
+.team-members {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.member1 {
+    height: 60vh;
+    width: 30%;
+    border-radius: 4px;
+    margin-bottom: 30vh;
+}
+
+.member2 {
+    height: 60vh;
+    width: 30%;
+    border-radius: 4px;
+    margin-bottom: 30vh;
+}
+
+
+.team {
+    margin-top: 20px;
+}
+
+.image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border: 3px solid white;
+}
+
+.center {
+    object-position: center;
+}
+/*
+.member-image {
+    height: 60vh;
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 4px;
+    margin-bottom: 30vh;
+}*/
+
+.proffesion {
+    color: rgba(198, 120, 31, 0.42);
+}
+
+#contact {
+    width: 90%;
+    height: 32vh;
+    margin: 0 auto;
+    border: 3px solid;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.links {
+    width: 15%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 11em;
+}
+
+
+.contact-us {
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-links {
+    width: 6em;
+}
+
+.small-heading {
+    margin-top: 1em;
+}
+
+.list {
+    list-style-type: none;
+    width: 70px;
+    text-align: left;
+}
+
+.list > li {
+    padding-top: 10px;
+}
+
+.list > li a {
+    text-decoration: none;
+}
+
+.address {
+    padding-top: 10px;
+}
+
+.contact-div {
+    text-align: left;
+}
+
+.phone {
+    padding-bottom: 5px;
+}
+
+#contact {
+    box-shadow: rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px, rgb(17 17 26 / 10%) 0px 24px 80px;
+}
